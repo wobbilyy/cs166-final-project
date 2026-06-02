@@ -1,0 +1,11 @@
+{
+  "mse": 0.18634588880603817,
+  "mae": 0.3044325798547186,
+  "psnr": 13.31740175609433,
+  "model": "flow",
+  "dataset": "cifar",
+  "mask_size": 16,
+  "mask_seed": 0,
+  "num_parameters": 34050051,
+  "network_evaluations_per_sample": 200
+}

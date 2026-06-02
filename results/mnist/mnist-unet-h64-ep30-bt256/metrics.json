@@ -1,0 +1,11 @@
+{
+  "mse": 0.16498409631300945,
+  "mae": 0.2277895421397929,
+  "psnr": 13.846179090315513,
+  "model": "unet",
+  "dataset": "mnist",
+  "mask_size": 14,
+  "mask_seed": 0,
+  "num_parameters": 1885121,
+  "network_evaluations_per_sample": 1
+}

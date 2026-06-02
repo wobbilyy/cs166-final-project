@@ -1,0 +1,11 @@
+{
+  "mse": 0.0497024974813967,
+  "mae": 0.15493234359856808,
+  "psnr": 19.05681779352419,
+  "model": "unet",
+  "dataset": "ffhq",
+  "mask_size": 16,
+  "mask_seed": 0,
+  "num_parameters": 4239651,
+  "network_evaluations_per_sample": 1
+}

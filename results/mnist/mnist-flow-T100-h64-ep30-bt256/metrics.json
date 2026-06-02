@@ -1,0 +1,11 @@
+{
+  "mse": 0.36309768326428477,
+  "mae": 0.2869659428693811,
+  "psnr": 10.420365134113439,
+  "model": "flow",
+  "dataset": "mnist",
+  "mask_size": 14,
+  "mask_seed": 0,
+  "num_parameters": 2132609,
+  "network_evaluations_per_sample": 100
+}

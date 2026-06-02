@@ -1,0 +1,37 @@
+name: mnist
+
+data:
+  name: mnist
+  image_size: 28
+  mask_size: 14
+
+model:
+  name: unet
+
+unet:
+  hidden_dim: 64
+
+ddpm:
+  hidden_dim: 64
+  num_timesteps: 100
+  beta_start: 1e-4
+  beta_end: 1e-1
+
+flow:
+  hidden_dim: 64
+  num_steps: 100
+
+transformer:
+  hidden_dim: 64
+  num_layers: 2
+
+train:
+    batch_size: 256
+    epochs: 30
+    lr: 1e-4
+    weight_decay: 1e-6
+    seed: 0
+    device: "cpu"
+
+eval:
+    save_plots: True

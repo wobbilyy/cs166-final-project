@@ -1,0 +1,11 @@
+{
+  "mse": 0.11854217111161261,
+  "mae": 0.24000509470314174,
+  "psnr": 15.281871142056428,
+  "model": "ddpm",
+  "dataset": "ffhq",
+  "mask_size": 16,
+  "mask_seed": 0,
+  "num_parameters": 4796931,
+  "network_evaluations_per_sample": 100
+}

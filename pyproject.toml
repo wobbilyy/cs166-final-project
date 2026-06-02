@@ -1,0 +1,14 @@
+[project]
+name = "cs166-final-project"
+version = "0.0.0"
+dependencies = [
+    "datasets",
+    "omegaconf",
+    "pillow",
+    "torch",
+    "torchvision",
+    "tqdm",
+]
+
+[project.scripts]
+run = "cs166_final_project.main:main"

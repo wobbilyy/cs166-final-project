@@ -1,0 +1,11 @@
+{
+  "mse": 0.2030519951362999,
+  "mae": 0.3209122018343737,
+  "psnr": 12.944527302158747,
+  "model": "ddpm",
+  "dataset": "cifar",
+  "mask_size": 16,
+  "mask_seed": 0,
+  "num_parameters": 34050051,
+  "network_evaluations_per_sample": 200
+}

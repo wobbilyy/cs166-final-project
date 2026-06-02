@@ -1,0 +1,11 @@
+{
+  "mse": 0.42727527618408195,
+  "mae": 0.3161764704451268,
+  "psnr": 9.713522277583046,
+  "model": "ddpm",
+  "dataset": "mnist",
+  "mask_size": 14,
+  "mask_seed": 0,
+  "num_parameters": 2132609,
+  "network_evaluations_per_sample": 100
+}

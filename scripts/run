@@ -1,0 +1,69 @@
+#!/bin/bash
+
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+cd $SCRIPT_DIR/../
+
+pip install .
+
+####### MNIST ##########################
+# python src/cs166_final_project/main.py \
+#     --config="./config/mnist.yaml" \
+#     --data-dir="./data/" \
+#     --output-dir="./output/" \
+#     model.name="ddpm"
+
+# python src/cs166_final_project/main.py \
+#     --config="./config/mnist.yaml" \
+#     --data-dir="./data/" \
+#     --output-dir="./output/" \
+#     model.name="flow"
+#
+# python src/cs166_final_project/main.py \
+#     --config="./config/mnist.yaml" \
+#     --data-dir="./data/" \
+#     --output-dir="./output/" \
+#     model.name="unet"
+# ########################################
+
+# ####### CIFAR ##########################
+# python src/cs166_final_project/main.py \
+#     --config="./config/cifar.yaml" \
+#     --data-dir="./data/" \
+#     --output-dir="./output/" \
+#     model.name="ddpm" \
+#     train.device="cuda"
+#
+# python src/cs166_final_project/main.py \
+#     --config="./config/cifar.yaml" \
+#     --data-dir="./data/" \
+#     --output-dir="./output/" \
+#     model.name="flow" \
+#     train.device="cuda"
+#
+# python src/cs166_final_project/main.py \
+#     --config="./config/cifar.yaml" \
+#     --data-dir="./data/" \
+#     --output-dir="./output/" \
+#     model.name="unet" \
+#     train.device="cuda"
+# ########################################
+
+####### FFHQ ###########################
+python src/cs166_final_project/main.py \
+    --config="./config/ffhq.yaml" \
+    --data-dir="./data/" \
+    --output-dir="./output/" \
+    model.name="ddpm"
+
+python src/cs166_final_project/main.py \
+    --config="./config/ffhq.yaml" \
+    --data-dir="./data/" \
+    --output-dir="./output/" \
+    model.name="flow"
+
+python src/cs166_final_project/main.py \
+    --config="./config/ffhq.yaml" \
+    --data-dir="./data/" \
+    --output-dir="./output-final/" \
+    model.name="unet"
+########################################

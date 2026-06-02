@@ -1,0 +1,5 @@
+/build/
+/data/
+/output/
+__pycache__
+cs166_final_project.egg-info/

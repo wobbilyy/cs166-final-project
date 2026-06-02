@@ -1,0 +1,11 @@
+{
+  "mse": 0.10930723058325904,
+  "mae": 0.23028270726080063,
+  "psnr": 15.634111002058244,
+  "model": "flow",
+  "dataset": "ffhq",
+  "mask_size": 16,
+  "mask_seed": 0,
+  "num_parameters": 4796931,
+  "network_evaluations_per_sample": 100
+}

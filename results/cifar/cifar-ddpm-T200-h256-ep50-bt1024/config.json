@@ -1,0 +1,43 @@
+{
+  "config": {
+    "name": "cifar",
+    "data": {
+      "name": "cifar",
+      "image_size": 32,
+      "mask_size": 16
+    },
+    "model": {
+      "name": "ddpm"
+    },
+    "unet": {
+      "hidden_dim": 256
+    },
+    "ddpm": {
+      "hidden_dim": 256,
+      "num_timesteps": 200,
+      "beta_start": 0.0001,
+      "beta_end": 0.1
+    },
+    "flow": {
+      "hidden_dim": 256,
+      "num_steps": 200
+    },
+    "transformer": {
+      "hidden_dim": 64,
+      "num_layers": 2
+    },
+    "train": {
+      "batch_size": 1024,
+      "epochs": 50,
+      "lr": 0.0001,
+      "weight_decay": 1e-06,
+      "seed": 0,
+      "device": "cuda"
+    },
+    "eval": {
+      "save_plots": true,
+      "mask_seed": 0,
+      "max_images": 8
+    }
+  }
+}

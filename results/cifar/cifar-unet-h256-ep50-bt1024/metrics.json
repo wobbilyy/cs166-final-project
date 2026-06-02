@@ -1,0 +1,11 @@
+{
+  "mse": 0.08370686303190633,
+  "mae": 0.20436939394392936,
+  "psnr": 16.792989245569768,
+  "model": "unet",
+  "dataset": "cifar",
+  "mask_size": 16,
+  "mask_seed": 0,
+  "num_parameters": 30106371,
+  "network_evaluations_per_sample": 1
+}
